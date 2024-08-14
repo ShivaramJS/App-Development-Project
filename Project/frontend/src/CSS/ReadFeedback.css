@@ -1,0 +1,61 @@
+.feedback-list-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.feedback-list-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.feedback-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feedback-item {
+    background-color: #f0f8ff;
+    border: 2px solid #add8e6;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.feedback-item h3 {
+    margin-top: 0;
+    color: #007bff;
+    font-size: 20px;
+    animation: slideInLeft 0.5s ease-in-out;
+}
+
+.feedback-item p {
+    margin: 5px 0;
+    color: #555;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.feedback-item:hover {
+    transform: scale(1.02);
+    background-color: #e6f7ff;
+}
+
+.feedback-item p strong {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}

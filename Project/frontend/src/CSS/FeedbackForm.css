@@ -1,0 +1,55 @@
+.feedback-form-container {
+    padding: 20px;
+    text-align: center;
+    color: rgb(11, 11, 11);
+}
+
+.feedback-form-container h2 {
+    margin-bottom: 20px;
+    margin-left: 80vh;
+    color: black;
+}
+
+.feedback-form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-form-container label {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.feedback-form-container input,
+.feedback-form-container textarea {
+    padding: 10px;
+    border: 1px solid #5e5c5c;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.feedback-form-container textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.feedback-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(223, 219, 219);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feedback-button:hover {
+    background-color: #0056b3;
+}

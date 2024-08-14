@@ -1,0 +1,92 @@
+.insurance-card {
+    border: 2px solid #FFA07A;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 320px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FFEBCC;
+    cursor: pointer;
+}
+
+.insurance-card:hover {
+    transform: scale(1.1);
+    background-color: #FFDDC1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.icon-container {
+    margin-bottom: 20px;
+}
+
+.insurance-icon {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.insurance-card:hover .insurance-icon {
+    transform: rotate(20deg);
+}
+
+.insurance-details {
+    flex-grow: 1;
+}
+
+.insurance-title {
+    margin: 0 0 10px 0;
+    font-size: 1.75em;
+    color: #FF4500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.insurance-description {
+    margin: 0;
+    color: #333;
+    font-size: 1em;
+}
+
+.insurance-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFF5EE;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.add-insurance-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.add-insurance-form input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.add-insurance-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFA07A;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-insurance-form button:hover {
+    background-color: #FF4500;
+}

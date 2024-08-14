@@ -1,0 +1,68 @@
+.apply-insurance-container {
+    max-width: 500px;
+    margin: 50px auto; /* Center the container with margin */
+    padding: 20px; /* Increase padding for better spacing */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.apply-insurance-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Darker text for better readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.apply-insurance-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the form elements */
+}
+
+.apply-insurance-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    font-weight: bold;
+    width: 100%; /* Make labels take full width for better alignment */
+    max-width: 400px; /* Align with the input fields */
+}
+
+.apply-insurance-container input {
+    width: 100%; /* Full width for inputs */
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.apply-insurance-container input:focus {
+    border-color: #007bff; /* Highlight on focus */
+    outline: none; /* Remove default outline */
+}
+
+.apply-insurance-container button {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-insurance-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.afibutton {
+    margin-top: 30px;
+}
